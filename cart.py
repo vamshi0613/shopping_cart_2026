@@ -5,9 +5,6 @@ class Cart:
         self.quantity=quantity
         self.description=description
     
-    def add_item(self,product):
-        self.products.append(product)
-        print("item added successfully")
 
     def update_item(self,name,price,quantity,description):
         self.name=name
